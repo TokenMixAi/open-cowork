@@ -181,6 +181,8 @@ const defaultProfiles: Record<ProviderProfileKey, ProviderProfile> = {
     model: 'claude-sonnet-4-6',
   },
   openrouter: {
+    apiKey: '',
+    baseUrl: 'https://openrouter.ai/api/v1',
     model: 'anthropic/claude-sonnet-4-6',
   },
   anthropic: {
